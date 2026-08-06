@@ -68,8 +68,14 @@ fantasy-regency, sci-fi-fantasy, jessealexanderbooks/ (old QR codes — keep).
    series. Slap the PREORDER ribbon on its covers: wrap the cover img in
    `<span class="ribbon-wrap">` + `<span class="ribbon">Preorder</span>` (remove
    ribbon on release day).
-3. **Release day**: badge → "Free on Kindle Unlimited", button → "Read on Amazon",
-   delete the callout. "Available now" always means clickable-and-buyable TODAY.
+3. **Release day**: badge → "Free on Kindle Unlimited", button → "Read on Amazon"
+   (keep the StoryOrigin universal link as href), delete the callout, update the
+   page's meta/og descriptions from "Releases <date>" to "Out now", move the llms.txt
+   entry from Preorder to Books. Ribbon text flips Preorder → **New**.
+4. **The New ribbon** (her convention, Aug 2026): the newest released book wears the
+   gold "New" ribbon on its covers sitewide. When the next book releases (or goes to
+   preorder), it takes the ribbon and the previous holder's ribbon-wrap/ribbon markup
+   is removed. Exactly one ribbon-wearer at a time.
 
 ## Videos / animations
 - One animation per page, max. Placement: the book page's "More from this world".
