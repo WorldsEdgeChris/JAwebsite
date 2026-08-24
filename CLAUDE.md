@@ -72,6 +72,9 @@ fantasy-regency, sci-fi-fantasy, jessealexanderbooks/ (old QR codes — keep).
    (keep the StoryOrigin universal link as href), delete the callout, update the
    page's meta/og descriptions from "Releases <date>" to "Out now", move the llms.txt
    entry from Preorder to Books. Ribbon text flips Preorder → **New**.
+4a. **The "Working on / coming soon" section** (home): each soon-card carries a
+   status `.next-tag` — "Coming in <month>" when a release window exists, "Working on"
+   for WIPs; the nearest release gets the `featured` card style.
 4. **The New ribbon** (her convention, Aug 2026): the newest released book wears the
    gold "New" ribbon on its covers sitewide. When the next book releases (or goes to
    preorder), it takes the ribbon and the previous holder's ribbon-wrap/ribbon markup
